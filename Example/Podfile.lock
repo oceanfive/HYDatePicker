@@ -1,0 +1,16 @@
+PODS:
+  - HYDatePicker (0.0.1)
+
+DEPENDENCIES:
+  - HYDatePicker (from `../`)
+
+EXTERNAL SOURCES:
+  HYDatePicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HYDatePicker: a2109e9472eecabdef49b4311b387d50d7d5a511
+
+PODFILE CHECKSUM: 558449eeade9f9571442887054371840bc73c2cc
+
+COCOAPODS: 1.5.2

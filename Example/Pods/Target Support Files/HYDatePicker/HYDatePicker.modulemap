@@ -1,0 +1,6 @@
+framework module HYDatePicker {
+  umbrella header "HYDatePicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

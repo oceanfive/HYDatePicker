@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		084DE6DB24E091F68E8A5E1859A79D87 /* Pods-HYDatePicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FAACE7D55AE6EBF9BEF9C390927A0DC /* Pods-HYDatePicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2469C65AFB330BBF776985C01542C3CA /* HYDatePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9ADF6403BF0B69C40C00815893C22BF /* HYDatePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		262DF4BB3B7E383AC121F6CECFEC20A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		7011FC5DD24FEEA229E378761A489911 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		74502DEC0B949E4D373A3C6A4E90F180 /* Pods-HYDatePicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6345A03066ECD0D916A6C98B6798D83 /* Pods-HYDatePicker_Example-dummy.m */; };
+		AB03ECE06983551F28881B5E4BEF2093 /* HYDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = E438FFADADECD76FC9B7DD17498B4D1B /* HYDatePicker.m */; };
+		B5D7CED5CE7045DC20708336A56D16B4 /* Pods-HYDatePicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E33541EA6BF616B283FB89389873C6AE /* Pods-HYDatePicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA57D8C40C0DC59A6D14CC08A3D63E21 /* HYDatePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = FDEBCF850FDA37994EEA37EC6362E0F0 /* HYDatePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D59F1C93BDC0A8A1DC6B38F5C8187FFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		DA1D2A3F9B354ED96A89DF6BD7588934 /* Pods-HYDatePicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD4F83F1C4E41305DF51D393B35C298 /* Pods-HYDatePicker_Tests-dummy.m */; };
+		E0C532501EA7D8DB8906DA100B55BBB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		F626AD6645CC19E78678EF0F67CEF23E /* HYDatePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDEF59677B25C2A72418B3CA104B145 /* HYDatePicker-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C860513A15D0AB8438C3E193155D915 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10BC7B9C10A98D8518860772C249B3FF;
+			remoteInfo = HYDatePicker;
+		};
+		3DAC26975AB47FD01C66BD683E3A2299 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8394ADA4AB512F7B78382DCE76A56A5C;
+			remoteInfo = "Pods-HYDatePicker_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DD97D1FB6978AB67D30F03CA057DCC4 /* HYDatePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HYDatePicker.framework; path = HYDatePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D25174CCD9FB72B3BE9986486C7FC12 /* Pods_HYDatePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HYDatePicker_Example.framework; path = "Pods-HYDatePicker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EDEF59677B25C2A72418B3CA104B145 /* HYDatePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HYDatePicker-dummy.m"; sourceTree = "<group>"; };
+		2FEF497AA5006A7C86C2AF055EFCA77E /* Pods-HYDatePicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HYDatePicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E79CA546EDE46300024F8A1D12591F3 /* HYDatePicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = HYDatePicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		48F7F4C069BC6B6DAD63368F9BE9D595 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4FAACE7D55AE6EBF9BEF9C390927A0DC /* Pods-HYDatePicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HYDatePicker_Tests-umbrella.h"; sourceTree = "<group>"; };
+		51853D3C914EDA70E40A866DA84239D1 /* HYDatePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYDatePicker-prefix.pch"; sourceTree = "<group>"; };
+		5D1BB1BC306ABF2C26551ADE06735FC8 /* Pods_HYDatePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HYDatePicker_Tests.framework; path = "Pods-HYDatePicker_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61461416D69D7147D6CDA6C5E32FDF2E /* HYDatePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HYDatePicker.xcconfig; sourceTree = "<group>"; };
+		73A0D188459255FA9D6C758FF006A70A /* Pods-HYDatePicker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYDatePicker_Example-resources.sh"; sourceTree = "<group>"; };
+		79E9E0D02E686E540B17B1F2CABB57B2 /* Pods-HYDatePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYDatePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7ACD94FEF024ECE20FAEC6BB7A7B5F37 /* Pods-HYDatePicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HYDatePicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7BD32FFCA5441F7264E7D9583593B100 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7F7267B58B75E8C172F4FC1E4C561BA8 /* Pods-HYDatePicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYDatePicker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8DE94046096E8E7B469640B9C2584BD7 /* Pods-HYDatePicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HYDatePicker_Example.modulemap"; sourceTree = "<group>"; };
+		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9848B070CB9479D10B6F97FF9669610A /* HYDatePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HYDatePicker.modulemap; sourceTree = "<group>"; };
+		995B68664F37FAB614CF48316996C402 /* Pods-HYDatePicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HYDatePicker_Tests.modulemap"; sourceTree = "<group>"; };
+		9A4C8B8B6EE5DA7631D893E6E036AC2E /* Pods-HYDatePicker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYDatePicker_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		9D72C2D28BCC558AF5BB26ACEBF254EF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A08195C4C8262D4C7C9948211A5B932C /* Pods-HYDatePicker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYDatePicker_Tests-resources.sh"; sourceTree = "<group>"; };
+		AA35B2D6FBC1ABA800727601069C69C7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFD4F83F1C4E41305DF51D393B35C298 /* Pods-HYDatePicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HYDatePicker_Tests-dummy.m"; sourceTree = "<group>"; };
+		B6345A03066ECD0D916A6C98B6798D83 /* Pods-HYDatePicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HYDatePicker_Example-dummy.m"; sourceTree = "<group>"; };
+		B9ADF6403BF0B69C40C00815893C22BF /* HYDatePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYDatePicker-umbrella.h"; sourceTree = "<group>"; };
+		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C0BAFA9AF3396FD2DB9C50FE5E8F6797 /* Pods-HYDatePicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYDatePicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D596CE0853B583E02AB0F0D4D508169D /* Pods-HYDatePicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYDatePicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D96458F2D1A747F3F5402D0AC8B6A984 /* Pods-HYDatePicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYDatePicker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		DDE449FDABAC091852DAB9832A56159E /* Pods-HYDatePicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYDatePicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E33541EA6BF616B283FB89389873C6AE /* Pods-HYDatePicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HYDatePicker_Example-umbrella.h"; sourceTree = "<group>"; };
+		E438FFADADECD76FC9B7DD17498B4D1B /* HYDatePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYDatePicker.m; path = HYDatePicker/Classes/HYDatePicker.m; sourceTree = "<group>"; };
+		EC48521C809076EE649B8E8881A2D6F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB1A35AA9BD729E761CB3178605636B9 /* Pods-HYDatePicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYDatePicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FDEBCF850FDA37994EEA37EC6362E0F0 /* HYDatePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYDatePicker.h; path = HYDatePicker/Classes/HYDatePicker.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		188959642311E54577ACAA576A7A4AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				262DF4BB3B7E383AC121F6CECFEC20A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		803C3EC004D7ACB22CD2DAFFDB35B835 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0C532501EA7D8DB8906DA100B55BBB0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E25F64369BFC47C02ABC3B35CA0BA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59F1C93BDC0A8A1DC6B38F5C8187FFF /* Foundation.framework in Frameworks */,
+				7011FC5DD24FEEA229E378761A489911 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				908E902E026C5C22904CF9014A5604AD /* Foundation.framework */,
+				BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3C8FED3E4B315998A993D625460C5816 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DF6467786A8E20F6797DFE6955234A5 /* HYDatePicker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4DF6467786A8E20F6797DFE6955234A5 /* HYDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				FDEBCF850FDA37994EEA37EC6362E0F0 /* HYDatePicker.h */,
+				E438FFADADECD76FC9B7DD17498B4D1B /* HYDatePicker.m */,
+				98962DA72CFF464BFF78DDB28306BD1A /* Pod */,
+				B1AC57AA086E607F1ECA28BBFE174558 /* Support Files */,
+			);
+			name = HYDatePicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4E789D644F9D7DBEAF07B90B772C4D96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DD97D1FB6978AB67D30F03CA057DCC4 /* HYDatePicker.framework */,
+				2D25174CCD9FB72B3BE9986486C7FC12 /* Pods_HYDatePicker_Example.framework */,
+				5D1BB1BC306ABF2C26551ADE06735FC8 /* Pods_HYDatePicker_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				3C8FED3E4B315998A993D625460C5816 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				4E789D644F9D7DBEAF07B90B772C4D96 /* Products */,
+				F2255726A800237319D74B8C0823B861 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		98962DA72CFF464BFF78DDB28306BD1A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3E79CA546EDE46300024F8A1D12591F3 /* HYDatePicker.podspec */,
+				48F7F4C069BC6B6DAD63368F9BE9D595 /* LICENSE */,
+				7BD32FFCA5441F7264E7D9583593B100 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B1AC57AA086E607F1ECA28BBFE174558 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9848B070CB9479D10B6F97FF9669610A /* HYDatePicker.modulemap */,
+				61461416D69D7147D6CDA6C5E32FDF2E /* HYDatePicker.xcconfig */,
+				2EDEF59677B25C2A72418B3CA104B145 /* HYDatePicker-dummy.m */,
+				51853D3C914EDA70E40A866DA84239D1 /* HYDatePicker-prefix.pch */,
+				B9ADF6403BF0B69C40C00815893C22BF /* HYDatePicker-umbrella.h */,
+				EC48521C809076EE649B8E8881A2D6F8 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HYDatePicker";
+			sourceTree = "<group>";
+		};
+		C1428FB9912A5EE163DD816408F9AAD9 /* Pods-HYDatePicker_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AA35B2D6FBC1ABA800727601069C69C7 /* Info.plist */,
+				995B68664F37FAB614CF48316996C402 /* Pods-HYDatePicker_Tests.modulemap */,
+				7ACD94FEF024ECE20FAEC6BB7A7B5F37 /* Pods-HYDatePicker_Tests-acknowledgements.markdown */,
+				D596CE0853B583E02AB0F0D4D508169D /* Pods-HYDatePicker_Tests-acknowledgements.plist */,
+				AFD4F83F1C4E41305DF51D393B35C298 /* Pods-HYDatePicker_Tests-dummy.m */,
+				9A4C8B8B6EE5DA7631D893E6E036AC2E /* Pods-HYDatePicker_Tests-frameworks.sh */,
+				A08195C4C8262D4C7C9948211A5B932C /* Pods-HYDatePicker_Tests-resources.sh */,
+				4FAACE7D55AE6EBF9BEF9C390927A0DC /* Pods-HYDatePicker_Tests-umbrella.h */,
+				79E9E0D02E686E540B17B1F2CABB57B2 /* Pods-HYDatePicker_Tests.debug.xcconfig */,
+				FB1A35AA9BD729E761CB3178605636B9 /* Pods-HYDatePicker_Tests.release.xcconfig */,
+			);
+			name = "Pods-HYDatePicker_Tests";
+			path = "Target Support Files/Pods-HYDatePicker_Tests";
+			sourceTree = "<group>";
+		};
+		D95AB3B0DE8146706975B03549077D02 /* Pods-HYDatePicker_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9D72C2D28BCC558AF5BB26ACEBF254EF /* Info.plist */,
+				8DE94046096E8E7B469640B9C2584BD7 /* Pods-HYDatePicker_Example.modulemap */,
+				2FEF497AA5006A7C86C2AF055EFCA77E /* Pods-HYDatePicker_Example-acknowledgements.markdown */,
+				DDE449FDABAC091852DAB9832A56159E /* Pods-HYDatePicker_Example-acknowledgements.plist */,
+				B6345A03066ECD0D916A6C98B6798D83 /* Pods-HYDatePicker_Example-dummy.m */,
+				D96458F2D1A747F3F5402D0AC8B6A984 /* Pods-HYDatePicker_Example-frameworks.sh */,
+				73A0D188459255FA9D6C758FF006A70A /* Pods-HYDatePicker_Example-resources.sh */,
+				E33541EA6BF616B283FB89389873C6AE /* Pods-HYDatePicker_Example-umbrella.h */,
+				C0BAFA9AF3396FD2DB9C50FE5E8F6797 /* Pods-HYDatePicker_Example.debug.xcconfig */,
+				7F7267B58B75E8C172F4FC1E4C561BA8 /* Pods-HYDatePicker_Example.release.xcconfig */,
+			);
+			name = "Pods-HYDatePicker_Example";
+			path = "Target Support Files/Pods-HYDatePicker_Example";
+			sourceTree = "<group>";
+		};
+		F2255726A800237319D74B8C0823B861 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D95AB3B0DE8146706975B03549077D02 /* Pods-HYDatePicker_Example */,
+				C1428FB9912A5EE163DD816408F9AAD9 /* Pods-HYDatePicker_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EEBF88F365525598B5862F4C5E4BC9B2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2469C65AFB330BBF776985C01542C3CA /* HYDatePicker-umbrella.h in Headers */,
+				BA57D8C40C0DC59A6D14CC08A3D63E21 /* HYDatePicker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F583BA208838FF9CBDB914E266989D37 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5D7CED5CE7045DC20708336A56D16B4 /* Pods-HYDatePicker_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9AE6D8F05149BEEBB4CAA666C227323 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				084DE6DB24E091F68E8A5E1859A79D87 /* Pods-HYDatePicker_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		10BC7B9C10A98D8518860772C249B3FF /* HYDatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07E0A633A1AFA9EE2CFECDAD380B36E4 /* Build configuration list for PBXNativeTarget "HYDatePicker" */;
+			buildPhases = (
+				819E4AD36DED11D676084D3A908995AB /* Sources */,
+				D9E25F64369BFC47C02ABC3B35CA0BA1 /* Frameworks */,
+				EEBF88F365525598B5862F4C5E4BC9B2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYDatePicker;
+			productName = HYDatePicker;
+			productReference = 1DD97D1FB6978AB67D30F03CA057DCC4 /* HYDatePicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8394ADA4AB512F7B78382DCE76A56A5C /* Pods-HYDatePicker_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D534083F83287341AEE51011105F903 /* Build configuration list for PBXNativeTarget "Pods-HYDatePicker_Example" */;
+			buildPhases = (
+				BA3738CC649C8028477F5A78D01C11E8 /* Sources */,
+				188959642311E54577ACAA576A7A4AFA /* Frameworks */,
+				F583BA208838FF9CBDB914E266989D37 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B82F91D3D42DD442CECE7305F1175B69 /* PBXTargetDependency */,
+			);
+			name = "Pods-HYDatePicker_Example";
+			productName = "Pods-HYDatePicker_Example";
+			productReference = 2D25174CCD9FB72B3BE9986486C7FC12 /* Pods_HYDatePicker_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8C74B4AE625B2F413D45899126BF6ECD /* Pods-HYDatePicker_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93A758E5F3EC464475F677FB509B6C13 /* Build configuration list for PBXNativeTarget "Pods-HYDatePicker_Tests" */;
+			buildPhases = (
+				C3622698E2B615433B1D9654844498AC /* Sources */,
+				803C3EC004D7ACB22CD2DAFFDB35B835 /* Frameworks */,
+				F9AE6D8F05149BEEBB4CAA666C227323 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A450A36F6F5D7D256258916F7A1550A7 /* PBXTargetDependency */,
+			);
+			name = "Pods-HYDatePicker_Tests";
+			productName = "Pods-HYDatePicker_Tests";
+			productReference = 5D1BB1BC306ABF2C26551ADE06735FC8 /* Pods_HYDatePicker_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4E789D644F9D7DBEAF07B90B772C4D96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10BC7B9C10A98D8518860772C249B3FF /* HYDatePicker */,
+				8394ADA4AB512F7B78382DCE76A56A5C /* Pods-HYDatePicker_Example */,
+				8C74B4AE625B2F413D45899126BF6ECD /* Pods-HYDatePicker_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		819E4AD36DED11D676084D3A908995AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F626AD6645CC19E78678EF0F67CEF23E /* HYDatePicker-dummy.m in Sources */,
+				AB03ECE06983551F28881B5E4BEF2093 /* HYDatePicker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3738CC649C8028477F5A78D01C11E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74502DEC0B949E4D373A3C6A4E90F180 /* Pods-HYDatePicker_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3622698E2B615433B1D9654844498AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1D2A3F9B354ED96A89DF6BD7588934 /* Pods-HYDatePicker_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A450A36F6F5D7D256258916F7A1550A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HYDatePicker_Example";
+			target = 8394ADA4AB512F7B78382DCE76A56A5C /* Pods-HYDatePicker_Example */;
+			targetProxy = 3DAC26975AB47FD01C66BD683E3A2299 /* PBXContainerItemProxy */;
+		};
+		B82F91D3D42DD442CECE7305F1175B69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HYDatePicker;
+			target = 10BC7B9C10A98D8518860772C249B3FF /* HYDatePicker */;
+			targetProxy = 1C860513A15D0AB8438C3E193155D915 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		165440E7222B01AE4DEF7DC98F783C55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0BAFA9AF3396FD2DB9C50FE5E8F6797 /* Pods-HYDatePicker_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HYDatePicker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HYDatePicker_Example/Pods-HYDatePicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1AB6039A4C03E168DCA498D0D0E18530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61461416D69D7147D6CDA6C5E32FDF2E /* HYDatePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HYDatePicker/HYDatePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HYDatePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HYDatePicker/HYDatePicker.modulemap";
+				PRODUCT_MODULE_NAME = HYDatePicker;
+				PRODUCT_NAME = HYDatePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2C35FBEB2C67462A4C84154009EFD37B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79E9E0D02E686E540B17B1F2CABB57B2 /* Pods-HYDatePicker_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HYDatePicker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HYDatePicker_Tests/Pods-HYDatePicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2CEA309A6122997AD7AC4C891B4407BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB1A35AA9BD729E761CB3178605636B9 /* Pods-HYDatePicker_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HYDatePicker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HYDatePicker_Tests/Pods-HYDatePicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		518DE2E782BC979D6C46714FB2D23EF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F7267B58B75E8C172F4FC1E4C561BA8 /* Pods-HYDatePicker_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HYDatePicker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HYDatePicker_Example/Pods-HYDatePicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		89B0420734FD376D4A801BF5B850284A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61461416D69D7147D6CDA6C5E32FDF2E /* HYDatePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HYDatePicker/HYDatePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HYDatePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HYDatePicker/HYDatePicker.modulemap";
+				PRODUCT_MODULE_NAME = HYDatePicker;
+				PRODUCT_NAME = HYDatePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07E0A633A1AFA9EE2CFECDAD380B36E4 /* Build configuration list for PBXNativeTarget "HYDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89B0420734FD376D4A801BF5B850284A /* Debug */,
+				1AB6039A4C03E168DCA498D0D0E18530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D534083F83287341AEE51011105F903 /* Build configuration list for PBXNativeTarget "Pods-HYDatePicker_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				165440E7222B01AE4DEF7DC98F783C55 /* Debug */,
+				518DE2E782BC979D6C46714FB2D23EF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93A758E5F3EC464475F677FB509B6C13 /* Build configuration list for PBXNativeTarget "Pods-HYDatePicker_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C35FBEB2C67462A4C84154009EFD37B /* Debug */,
+				2CEA309A6122997AD7AC4C891B4407BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
